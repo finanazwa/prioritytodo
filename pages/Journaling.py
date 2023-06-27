@@ -30,9 +30,6 @@ def main():
         save_journal(journal_data)
         st.success("Entry saved successfully!")
 
-    # Display existing journal entries
-    st.subheader("Journal Entries")
-    st.dataframe(journal_data)
 
 if __name__ == "__main__":
     main()
